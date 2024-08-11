@@ -1,0 +1,16 @@
+{
+  "files.exclude": {
+		".vscode": false,
+		"node_modules": false,
+		".editorconfig": false,
+		".gitignore": false,
+		".npmignore": false,
+		"package-lock.json": false,
+		"pnpm-lock.yaml": false,
+		"package.json": false,
+		".github": false,
+		"LICENSE.md": false,
+		"README.md": false
+	},
+	"npm-scripts.showStartNotification": false
+}

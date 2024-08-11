@@ -1,0 +1,7 @@
+# ? Sassify
+*.css
+*.css.map
+docs/
+
+# ? Node, npm
+node_modules/

@@ -1,0 +1,34 @@
+{
+  "name": "@sassify/sassify",
+  "description": "Большой набор миксинов и функций на языке CSS-препроцессора Sass для упрощения, улучшения и ускорения процесса написания стилей для веб-сайтов.",
+  "version": "0.0.0",
+  "private": true,
+  "main": "index.scss",
+	"scripts": {
+		"test": "npx sass tests/index.scss:tests/output.css --charset --embed-source-map --stop-on-error",
+		"test:docs": "npx sassdoc . -d docs/",
+    "publish": "npm publish --access public"
+	},
+  "license": "MIT",
+  "homepage": "https://github.com/sassify/sassify#readme",
+  "author": {
+    "name": "Haba Kudzaev (therteenten)",
+    "url": "https://github.com/therteenten"
+  },
+  "bugs": {
+    "url": "https://github.com/sassify/sassify/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sassify/sassify.git"
+  },
+  "exports": {
+    "sass": "./index.scss"
+  },
+  "devDependencies": {
+    "sassdoc": "^2.7.4"
+  },
+  "dependencies": {
+    "sass": "^1.77.4"
+  }
+}
